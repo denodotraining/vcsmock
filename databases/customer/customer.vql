@@ -1,0 +1,5 @@
+﻿CREATE OR REPLACE DATABASE customer '';
+
+ALTER DATABASE customer
+  CHARSET DEFAULT;
+
