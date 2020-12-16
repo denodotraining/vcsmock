@@ -1,0 +1,5 @@
+﻿CREATE OR REPLACE VIEW p_bv_ho_order_item FOLDER = '/1 - connectivity/2 - base views' AS SELECT bv_ho_order_item.id AS id, bv_ho_order_item.order_id AS order_id, bv_ho_order_item.product_id AS product_id FROM bv_ho_order_item;
+
+ALTER VIEW p_bv_ho_order_item
+ LAYOUT (bv_ho_order_item = [20, 20, 200, 85]);
+
